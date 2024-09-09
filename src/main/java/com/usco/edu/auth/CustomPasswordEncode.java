@@ -32,7 +32,6 @@ public class CustomPasswordEncode implements PasswordEncoder {
 
 	@Override
 	public boolean matches(CharSequence password, String encodedPassword) {
-		System.out.println("FUNCION:: " + password + " U " + encode(password) + " U " + encodedPassword);
 		return encode(password).equals(encodedPassword) ? true : false;
 	}
 

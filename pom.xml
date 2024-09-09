@@ -10,11 +10,11 @@
 		<relativePath /> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>usco.edu.co</groupId>
-	<artifactId>plantilla-web</artifactId>
+	<artifactId>servicio-sakai-foto</artifactId>
 	<version>1.0</version>
 	<packaging>war</packaging>
-	<name>plantilla-web</name>
-	<description>Sistema plantilla web</description>
+	<name>servicio-sakai-foto</name>
+	<description>Servicio que permite obtener la foto nueva y antigua a través de un parametro y la retorna con api</description>
 
 	<properties>
 		<java.version>1.8</java.version>

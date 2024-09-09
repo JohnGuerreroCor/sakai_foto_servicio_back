@@ -7,10 +7,10 @@ import org.springframework.cloud.openfeign.EnableFeignClients;
 
 @EnableFeignClients
 @SpringBootApplication
-public class PlantillaWebApplication {
+public class ServicioSakaiFotoApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(PlantillaWebApplication.class, args);
+		SpringApplication.run(ServicioSakaiFotoApplication.class, args);
 	}
 	
 }
