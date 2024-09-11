@@ -95,7 +95,7 @@
 
 
 		<!-- JasperReport -->
-		<dependency>
+		<!--<dependency>
 			<groupId>net.sf.jasperreports</groupId>
 			<artifactId>jasperreports</artifactId>
 			<version>${version.jasperreports}</version>
@@ -105,7 +105,7 @@
 					<artifactId>olap4j</artifactId>
 				</exclusion>
 			</exclusions>
-		</dependency>
+		</dependency>-->
 
 		<!-- PDF View -->
 		<!--<dependency> <groupId>com.itextpdf</groupId> <artifactId>itextpdf</artifactId> 

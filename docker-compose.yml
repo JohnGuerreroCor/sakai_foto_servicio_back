@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  foto-service:
+    build: .
+    container_name: foto-service
+    ports:
+      - "8080:8080"
+    restart: always
+
