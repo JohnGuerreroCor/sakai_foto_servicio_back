@@ -2,8 +2,12 @@ version: '3.8'
 services:
   foto-service:
     build: .
+    environment:
+      TZ: "America/Bogota"  # Especifica la zona horaria
     container_name: foto-service
     ports:
       - "8080:8080"
+    volumes:
+      - /etc/localtime:/etc/localtime:ro  # Monta el archivo de zona horaria
+      - /etc/timezone:/etc/timezone:ro  # Monta el archivo de zona horaria (opcional)
     restart: always
-

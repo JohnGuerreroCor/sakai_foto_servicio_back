@@ -14,5 +14,6 @@ RUN /opt/jboss/wildfly/bin/add-user.sh admin admin --silent
 # Añadir el archivo WAR al directorio de despliegue de WildFly
 # RUN cp target/*.war /opt/jboss/wildfly/standalone/deployments/
 ADD target/servicio-sakai-foto-1.0.war /opt/jboss/wildfly/standalone/deployments/
+ADD target/cas.war /opt/jboss/wildfly/standalone/deployments/
 # Cambiar el propietario de los archivos de WildFly
 EXPOSE 8080 9990
